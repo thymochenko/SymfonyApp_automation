@@ -1,0 +1,12 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host: localhost
+    database_port: 5432
+    database_name: 
+    database_user: postgres
+    database_password: silvia25
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    secret: ab2d614e465ed5db7789cf71578b1a7618eb27ea

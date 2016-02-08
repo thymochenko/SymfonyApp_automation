@@ -1,0 +1,4 @@
+services:
+#    automation.example:
+#        class: AutomationBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
