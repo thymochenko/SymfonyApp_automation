@@ -43,4 +43,134 @@ class Revisao {
 	*/
 	private $dateUpdated;
     
+
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set status
+     *
+     * @param integer $status
+     *
+     * @return Revisao
+     */
+    public function setStatus($status)
+    {
+        $this->status = $status;
+
+        return $this;
+    }
+
+    /**
+     * Get status
+     *
+     * @return integer
+     */
+    public function getStatus()
+    {
+        return $this->status;
+    }
+
+    /**
+     * Set descricao
+     *
+     * @param string $descricao
+     *
+     * @return Revisao
+     */
+    public function setDescricao($descricao)
+    {
+        $this->descricao = $descricao;
+
+        return $this;
+    }
+
+    /**
+     * Get descricao
+     *
+     * @return string
+     */
+    public function getDescricao()
+    {
+        return $this->descricao;
+    }
+
+    /**
+     * Set dateCreated
+     *
+     * @param \DateTime $dateCreated
+     *
+     * @return Revisao
+     */
+    public function setDateCreated($dateCreated)
+    {
+        $this->dateCreated = $dateCreated;
+
+        return $this;
+    }
+
+    /**
+     * Get dateCreated
+     *
+     * @return \DateTime
+     */
+    public function getDateCreated()
+    {
+        return $this->dateCreated;
+    }
+
+    /**
+     * Set dateUpdated
+     *
+     * @param \DateTime $dateUpdated
+     *
+     * @return Revisao
+     */
+    public function setDateUpdated($dateUpdated)
+    {
+        $this->dateUpdated = $dateUpdated;
+
+        return $this;
+    }
+
+    /**
+     * Get dateUpdated
+     *
+     * @return \DateTime
+     */
+    public function getDateUpdated()
+    {
+        return $this->dateUpdated;
+    }
+
+    /**
+      * Set tarefa
+     *
+     * @param \AutomationBundle\Entity\tarefa $tarefa
+     *
+     * @return Revisao
+     */
+    public function setTarefa(\AutomationBundle\Entity\tarefa $tarefa = null)
+    {
+        $this->tarefa = $tarefa;
+
+        return $this;
+    }
+
+    /**
+     * Get tarefa
+     *
+     * @return \AutomationBundle\Entity\tarefa
+     */
+    public function getTarefa()
+    {
+        return $this->tarefa;
+    }
 }
